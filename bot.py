@@ -1,5 +1,4 @@
 import logging
-import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import (
     ApplicationBuilder,
@@ -8,7 +7,7 @@ from telegram.ext import (
     ConversationHandler,
     ContextTypes,
 )
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = "7989581328:AAF_qKXOucMrwNqBa271JO9y9-6q8cAsJzk"
 
 PRICE_TEXT = "3999 ₸"
 KASPI_PHONE = "+7 777 030 9727"
